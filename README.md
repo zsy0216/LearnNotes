@@ -23,9 +23,9 @@
 
 - [springmvc的maven项目](https://github.com/zsy0216/LearnNotes/blob/master/SpringMVC/%E5%88%9B%E5%BB%BAspringmvc%E7%9A%84maven%E9%A1%B9%E7%9B%AE.md)
 - [springmvc的文件上传](https://github.com/zsy0216/LearnNotes/blob/master/SpringMVC/springmvc%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0.md)
-- [SpringMVC拦截器]
-- [SpringMVC中文问题]
-- [RESTful编码风格]
+- [SpringMVC拦截器](https://github.com/zsy0216/LearnNotes/blob/master/SpringMVC/SpringMVC%E6%8B%A6%E6%88%AA%E5%99%A8.md)
+- [SpringMVC中文问题](https://github.com/zsy0216/LearnNotes/blob/master/SpringMVC/SpringMVC%E4%B8%AD%E6%96%87%E9%97%AE%E9%A2%98.md)
+- [RESTful编码风格](https://github.com/zsy0216/LearnNotes/blob/master/SpringMVC/RESTful%E7%BC%96%E7%A0%81%E9%A3%8E%E6%A0%BC.md)
 - []
 
 ## Linux
