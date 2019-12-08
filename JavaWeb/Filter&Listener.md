@@ -39,3 +39,12 @@
 2）servlet_2和servlet_3之间，即请求走出controller层次，还没有到渲染时图层
 
 3）servlet_3和servlet_4之间，即结束视图渲染，但是还没有到servlet的结束
+
+# Filter
+
+Filter 中文的翻译是过滤器，是JavaWeb的三大组件之一。
+
+Filter就像是一个一个哨卡，用户的请求需要经过Filter才能到达Servlet中进行处理。
+
+可以定义多个过滤器。
+

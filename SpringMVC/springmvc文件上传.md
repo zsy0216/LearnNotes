@@ -70,19 +70,27 @@ success.jsp
 @RequestMapping(value = "/do-upload", method = RequestMethod.POST)
 public String testFileUpload(MultipartFile file, HttpServletRequest request, Model model) throws IOException {
     if (!file.isEmpty()) {
+
         // 文件原始名称
         System.out.println("Process file: " + file.getOriginalFilename());
+
         //上传路径：webapp下的resources/files目录中
         String path = request.getServletContext().getRealPath("/resources/files");
         System.out.println(path);
+
         // 生成文件名，避免重复
         String filename = System.currentTimeMillis() + file.getOriginalFilename();
+
         //文件上传，将文件流拷贝到目标文件对象中
         FileUtils.copyInputStreamToFile(file.getInputStream(), new File(path, filename));
         //上传的第二种方式，使用file提供的方法
         //file.transferTo(new File(path, System.currentTimeMillis()+ file.getOriginalFilename()));
+
         // 文件路径之所以这样设置，是因为在idea部署项目时，文件保存到项目的target文件夹下，要通过部署的虚拟项目名+文件的路径访问
-        model.addAttribute("filepath", request.getContextPath() + "/resources/files/" + filename);
+        // 绝对路径
+        // model.addAttribute("filepath", request.getContextPath() + "/resources/files/" + filename);
+        // 相对路径
+        model.addAttribute("filepath", "resources/files/" + filename);
         // model.addAttribute("filepath", "/sm/resources/files/" + filename);
         return "success";
     }
@@ -110,3 +118,4 @@ public String testFileUpload(MultipartFile file, HttpServletRequest request, Mod
 - 上传成功页面，此页面如代码中所示，显示图片的访问路径和图片
 
 ![](https://zsy0216.github.io/image/notes/20191207183211.png)
+
