@@ -154,3 +154,11 @@ ALTER USER 'root'@'localhost' IDENTIFIED BY 'new_password';
 quit
 ```
 
+---
+
+查看mysql服务是否时开机自启
+
+```shell
+systemctl list-unit-files | grep mysqld
+```
+
