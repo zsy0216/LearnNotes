@@ -31,3 +31,13 @@
 ## Linux
 
 - [虚拟机部署typecho博客程序](https://github.com/zsy0216/LearnNotes/blob/master/Linux/%E8%99%9A%E6%8B%9F%E6%9C%BA%E5%86%85%E9%83%A8%E7%BD%B2typecho%E5%8D%9A%E5%AE%A2.md)
+
+## MySQL💚
+
+- [Win10下MySQL5.7的安装与配置]
+- [centos7下MySQL5.7的安装与配置]
+- [MySQL基础&SQL分类]
+- [条件查询-排序&聚合&分组&分页]
+- [多表查询&事务控制&权限管理DCL]
+- [完整性约束条件&数据库的设计范式]
+- []

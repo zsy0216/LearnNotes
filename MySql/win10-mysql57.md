@@ -83,3 +83,39 @@ mysql> quit
 
 ![](https://zsy0216.github.io/image/notes/20191210114152.png)
 
+# 补充
+
+手动创建my.ini配置文件，该文件可以指定数据库默认的字符编码，防止插入数据时的中文乱码问题。
+
+该文件存放在mysql的安装路径，即：`D:\devtools\mysql-5.7.28-winx64`
+
+```ini
+[mysql]  
+# 设置mysql客户端默认字符集  
+default-character-set=utf8  
+[mysqld]  
+#设置3306端口  
+port = 3306  
+# 设置mysql的安装目录  
+basedir=D:\devtools\mysql-5.7.28-winx64
+# 设置mysql数据库的数据的存放目录  
+datadir=D:\devtools\mysql-5.7.28-winx64\data 
+# 允许最大连接数  
+max_connections=200  
+# 服务端使用的字符集默认为8比特编码的latin1字符集  
+character-set-server=utf8  
+# 创建新表时将使用的默认存储引擎  
+default-storage-engine=INNODB
+#开启查询缓存
+explicit_defaults_for_timestamp=true
+skip-grant-tables
+```
+
+创建完成后，需要重新启动mysql服务
+
+```shell
+net stop mysql
+net start mysql
+```
+
+之后再创建的数据库表的编码就已经被指定了。

@@ -162,3 +162,5 @@ quit
 systemctl list-unit-files | grep mysqld
 ```
 
+## 字符编码问题
+
