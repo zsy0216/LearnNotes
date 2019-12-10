@@ -34,10 +34,10 @@
 
 ## MySQL💚
 
-- [Win10下MySQL5.7的安装与配置]
-- [centos7下MySQL5.7的安装与配置]
-- [MySQL基础&SQL分类]
-- [条件查询-排序&聚合&分组&分页]
-- [多表查询&事务控制&权限管理DCL]
-- [完整性约束条件&数据库的设计范式]
+- [Win10下MySQL5.7的安装与配置](https://github.com/zsy0216/LearnNotes/blob/master/MySql/win10-mysql57.md)
+- [centos7下MySQL5.7的安装与配置](https://github.com/zsy0216/LearnNotes/blob/master/MySql/centos7-mysql57.md)
+- [MySQL基础&SQL分类](https://github.com/zsy0216/LearnNotes/blob/master/MySql/MySQL%E5%9F%BA%E7%A1%80%26SQL%E5%88%86%E7%B1%BB.md)
+- [条件查询-排序&聚合&分组&分页](https://github.com/zsy0216/LearnNotes/blob/master/MySql/%E6%9D%A1%E4%BB%B6%E6%9F%A5%E8%AF%A2%E4%B9%8B%E6%8E%92%E5%BA%8F%E8%81%9A%E5%90%88%E5%88%86%E7%BB%84%E5%88%86%E9%A1%B5%E6%9F%A5%E8%AF%A2.md)
+- [多表查询&事务控制&权限管理DCL](https://github.com/zsy0216/LearnNotes/blob/master/MySql/%E5%A4%9A%E8%A1%A8%E6%9F%A5%E8%AF%A2%26%E4%BA%8B%E5%8A%A1%26%E6%9D%83%E9%99%90%E7%AE%A1%E7%90%86DCL.md)
+- [完整性约束条件&数据库的设计范式](https://github.com/zsy0216/LearnNotes/blob/master/MySql/%E5%AE%8C%E6%95%B4%E6%80%A7%E7%BA%A6%E6%9D%9F%E6%9D%A1%E4%BB%B6%E5%92%8C%E6%95%B0%E6%8D%AE%E5%BA%93%E7%9A%84%E8%AE%BE%E8%AE%A1.md)
 - []
