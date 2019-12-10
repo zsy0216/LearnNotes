@@ -164,3 +164,17 @@ systemctl list-unit-files | grep mysqld
 
 ## 字符编码问题
 
+```shell
+vim /etc/my.cnf
+```
+
+按 i 进入编辑模式，在文件最后一行加上`character_set_server=utf8`
+
+按 esc 输入`:wq`，保存退出。
+
+重启服务：
+
+```shell
+systemctl restart mysqld
+```
+
