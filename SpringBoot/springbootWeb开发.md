@@ -60,7 +60,7 @@ public void addResourceHandlers(ResourceHandlerRegistry registry) {
 
 # 首页定制
 
-源码：`WebMvcAutoConfiguration.class` 
+源码：`WebMvcAutoConfiguration.java` 
 
 ```java
 @Bean
@@ -104,7 +104,7 @@ private Resource getIndexHtml(String location) {
 
 然后根据thymeleaf的默认配置 就可以实现类似springmvc视图解析器的效果：
 
-`Thymeleaf.class` 
+`Thymeleaf.java`  
 
 ```java
 public static final String DEFAULT_PREFIX = "classpath:/templates/";
@@ -141,4 +141,4 @@ public class MyMvcConfig implements WebMvcConfigurer {
 }
 ```
 
-![](https://zsy0216.github.io//image/notes/20191213154814.png)
+![](https://zsy0216.github.io/image/notes/20191213154814.png)

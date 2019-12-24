@@ -42,6 +42,17 @@
 - [完整性约束条件&数据库的设计范式](https://github.com/zsy0216/LearnNotes/blob/master/MySql/%E5%AE%8C%E6%95%B4%E6%80%A7%E7%BA%A6%E6%9D%9F%E6%9D%A1%E4%BB%B6%E5%92%8C%E6%95%B0%E6%8D%AE%E5%BA%93%E7%9A%84%E8%AE%BE%E8%AE%A1.md)
 - []
 
+## Mybatis
+
+- 1.Mybatis的简介
+- 2.Mybatis入门
+- 3.Mybatis练习
+- 4.Mybatis的XML配置
+- 5.Mybatis的结果映射
+- 6.Mybatis的日志实现
+- 7.Mybatis的分页使用
+- 8.Mybatis一对多多对一关系
+
 ## SpringBoot
 
 - [springboot原理初探](https://github.com/zsy0216/LearnNotes/blob/master/SpringBoot/springboot%E5%8E%9F%E7%90%86%E5%88%9D%E6%8E%A2.md)
