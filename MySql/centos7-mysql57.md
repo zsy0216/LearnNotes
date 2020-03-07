@@ -58,6 +58,19 @@ rpm -qa | grep net-tools
 
 如图所示，这两个包都已经存在，所以不需要其他额外的操作，若缺少，应自行安装。
 
+**安装：** 
+
+- libaio：作用是为了支持同步I/O。对于数据库之类的系统特别重要，因此在linux上安装数据库软件，就需要安装libaio。（不安装mysql的server端安装会失败）
+
+  ```shell
+  # 1. 搜索
+  yum search libaio
+  # 2. 安装
+  yum install  libaio-devel.x86_64 -y
+  # 3. 检查
+  rpm -qa | grep libaio
+  ```
+
 ### 3. 检查/tmp目录权限
 
 命令：
