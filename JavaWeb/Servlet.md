@@ -28,6 +28,35 @@
 4. tomcat会将字节码文件加载进内存，并且创建其对象;
 5. 调用其方法;
 
+## 生命周期
+
+![](https://zsy0216.github.io/image/notes/20200310182350.png)
+
+### 1.初始化阶段
+
+当客户端向Servlet容器发出HTTP请求要求访问Servlet时，Servlet容器首先会解析请求，检查内存中是否已经有了该Servlet对象，如果有，则直接使用该Servlet对象，如果没有，则创建Servlet实例对象，然后通过调用init()方法实现Servlet的初始化工作。需要注意的是，在Servlet的整个生命周期内，它的init()方法只能被调用一次。
+
+- 第一次请求时，创建Servlet实例对象；
+- 调用init()方法初始化。（不是第一次时直接使用Servlet对象）
+
+### 2.运行阶段
+
+这是Servlet声明周期中最重要的阶段，在这个阶段中，Servlet容器会为这个请求创建代表HTTP请求的ServletRequest对象和代表HTTP响应的ServletResponse对象，然后将它们作为参数传递给Servlet的service()方法。
+
+service()方法从ServletRequest对象中获得客户请求信息并处理该请求，通过ServletResponse对象生成响应结果。
+
+在Servlet的整个生命周期内，对于Servlet的每一次访问请求，Servlet容器都会调用一次Servlet的service() 方法，并且创建新的ServletRequest 和 ServletResponse 对象，也就是说，service() 方法在Servlet 的整个生命周期中会被调用多次。
+
+- 一次请求就调用一次service()方法，并创建新的请求和响应对象作为参数传入；
+
+### 3.销毁阶段
+
+当服务器关闭或Web应用被移除出容器时，Servlet随着Web应用的关闭而销毁。在销毁Servlet之前，Servlet容器会调用 Servlet 的 destory() 方法，以便让 Servlet 对象释放它所占用的资源。在Servlet的整个生命周期中，destory() 方法也只会被调用一次。
+
+需要注意的是，Servlet 对象一旦创建就会驻留在内存中等待客户端的访问，直到服务器关闭或 Web 应用被移除出容器时，Servlet 对象才会销毁。
+
+- 服务器关闭或应用销毁时，调用 destory() 方法销毁；
+
 ## 体系结构
 
 Servlet是一个接口，下面有两个抽象子类。
@@ -276,8 +305,8 @@ Object value = session.getAtrribute(String name);
 ### 特点
 
    	1. 由服务器创建
-   	2. 用户共享
-   	3. 一个项目只有一个
+      	2. 用户共享
+         	3. 一个项目只有一个
 
 ### 生命周期
 

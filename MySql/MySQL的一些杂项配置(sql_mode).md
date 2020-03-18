@@ -24,7 +24,7 @@ SELECT name, dept, MAX(age) FROM mytbl GROUP BY dept
 > 时间: 0.036s
 ```
 
-原因：mysql5.7 较之前版本设置了`sql_mode` ,其中有一项为`only_full_group_by`，这个设置规定select后只能查询`函数`中的字段和`group by`之后的字段。
+原因：mysql5.7 较之前版本设置了`sql_mode` ,其中有一项为`only_full_group_by`，这个设置规定select后只能查询函数中的字段和`group by`之后的字段。
 
 **正确查询：**
 
