@@ -119,7 +119,7 @@ public String testMvc() {
 
 运行项目后在浏览器地址栏输入对应test的访问地址，这里是：`http://localhost:8080/sm/test`,sm是我的虚拟项目名，含义是springmvc。
 
-![](https://zsy0216.github.io/image/notes/20191208215105.png)
+![](https://raw.githubusercontent.com/zsy0216/image/master/notes/20191208215105.png)
 
-![](https://zsy0216.github.io/image/notes/20191208215143.png)
+![](https://raw.githubusercontent.com/zsy0216/image/master/notes/20191208215143.png)
 

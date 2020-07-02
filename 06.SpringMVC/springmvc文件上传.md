@@ -107,15 +107,15 @@ public String testFileUpload(MultipartFile file, HttpServletRequest request, Mod
 
 - 初始页面，即项目运行时的初始页面，从此页面跳转到文件上传页面
 
-![](https://zsy0216.github.io/image/notes/20191207182650.png)
+![](https://raw.githubusercontent.com/zsy0216/image/master/notes/20191207182650.png)
 
 - 上传文件页面，在此页面可以选择文件，并提交到服务器
 
-![](https://zsy0216.github.io/image/notes/20191207182801.png)
+![](https://raw.githubusercontent.com/zsy0216/image/master/notes/20191207182801.png)
 
-![](https://zsy0216.github.io/image/notes/20191207183041.png)
+![](https://raw.githubusercontent.com/zsy0216/image/master/notes/20191207183041.png)
 
 - 上传成功页面，此页面如代码中所示，显示图片的访问路径和图片
 
-![](https://zsy0216.github.io/image/notes/20191207183211.png)
+![](https://raw.githubusercontent.com/zsy0216/image/master/notes/20191207183211.png)
 
