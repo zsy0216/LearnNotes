@@ -1,6 +1,8 @@
 # LearnNotes
 记录Java知识学习笔记
 
+生成树结构命令：`tree /f > list.txt` 
+
 ## Java基础🎈
 
 - [Java学习路线](https://github.com/zsy0216/LearnNotes/blob/master/Java%E5%9F%BA%E7%A1%80/0.java%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF.md)
