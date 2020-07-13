@@ -7,18 +7,18 @@ Spring Cloud Netflix
 3. 如何治理？注册中心
 4. 服务挂了怎么办？容灾机制
 
-### 解决方案
+# 解决方案
 
 Spring Cloud 生态！
 
-#### Spring Cloud NetFlix : 一站式解决方案
+## Spring Cloud NetFlix : 一站式解决方案
 
 1. zuul 组件 ，api网关；
 2. Feign：基于HttpClient，即Http通信方式，同步，阻塞；
 3. Eureka：服务注册与发现；
 4. Hystrix：熔断机制；
 
-#### Apache Dubbo zookeeper
+## Apache Dubbo zookeeper
 
 半自动，需要整合别的组件
 
@@ -27,7 +27,7 @@ Spring Cloud 生态！
 3. Zookeeper：注册中心
 4. 没有熔断机制，借助Hystrix
 
-#### Spring Cloud alibaba
+## Spring Cloud alibaba
 
 新一代一站式解决方案
 
