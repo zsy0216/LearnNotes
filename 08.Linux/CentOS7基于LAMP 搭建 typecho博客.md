@@ -1,8 +1,8 @@
 ## 备份问题
 
-- typecho admin页面有备份选项；
-
-- 也可自己手动在服务器 /var/www/html/ 下备份 /usr/目录 保存主题和个人用户数据；数据库备份：typecho数据库 
+- typecho admin 页面有备份选项；
+- 也可自己手动在服务器 /var/www/html/ 下备份 /usr/目录 保存主题和个人用户数据；
+- 数据库备份：typecho 数据库 
 
 
 
